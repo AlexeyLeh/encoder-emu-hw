@@ -1,3 +1,15 @@
+*.o
+*.map
+*.lst
+*.pbi
+*.pbi.dep
+*.r90
+*.xcl
+Debug/Obj/*
+Debug/List/*
+Release/Obj/*
+Release/List/*
+
 # Prerequisites
 *.d
 
