@@ -1,48 +1,46 @@
-# Техническое задание
+# Technical Specifications
 
-## Корпус для эмулятора энкодера
+## Enclosure for Encoder Emulator
 
-### Объект: Корпус для портативного устройства/модуля.
+### Object: Enclosure for a portable device/module.
 
-Назначение: Защита электроники эмулятора энкодера,  \
-обеспечение доступа к элементам управления и вывода сигналов.
+Purpose: To protect the encoder emulator electronics and \
+provide access to control elements and signal outputs.
 
-### 1. Конструктивные требования
+### 1. Design Requirements
 
-Габариты модуля:  74.93(75)x53.34(54)х20 мм.  \
-Габариты корпуса: ориентировочно - 80х60x30 мм.  \
-Материал:         ABS пластик.
+Module dimensions: 74.93(75) x 53.34(54) x 20 mm. \
+Enclosure dimensions: Approximately 80 x 60 x 30 mm. \
+Material: ABS plastic.
 
-### 2. Интерфейсные отверстия
-Габариты и координаты отверстий приведены в приложеном чертеже
+### 2. Interface Openings
+The dimensions and coordinates of the openings are provided in the attached drawing: \
 "Encoder-emulator-Arduino-UNO.jpg"
 
-[Печатная плата](#печатная-плата)
+[Printed Circuit Board (PCB)](#printed-circuit-board)
 
-[Макетная плата](#макет)
+[Breadboard/Prototype Board](#prototype-board)
 
-Необходимо предусмотреть установку следующих элементов:
-- Питание/Управление: Разъем USB-B
-- Выход сигналов: Клеммник 15EDGRC-3.5-03P-14-00A + 15EDGKN-3.5-04P-14 (3 pin) (Вых1/Земля/
-Вых2). Крепление разъёма на усмотрение конструктора.
-- Индикация: Светодиод 3.5mm цвет зеленый FYL-5013UGC1C. Крепление Светодиода на усмотрение конструктора. 
+Provision must be made for the installation of the following components:
+- Power/Control: USB-B connector.
+- Signal Output: Terminal block (15EDGRC-3.5-03P-14-00A + 15EDGKN-3.5-04P-14, 3-pin) (Output 1 / Ground / \
+Output 2). The method of mounting the connector is at the designer's discretion.
+- Indication: 3.5mm green LED (FYL-5013UGC1C). The method of mounting the LED is at the designer's discretion.
 
-### 3. Эксплуатационные характеристики
-Степень защиты: Не ниже IP20 (для помещений)  \
-Рабочая температура: от 0°C до +60°C.
+### 3. Operational Characteristics
+Ingress Protection (IP) rating: At least IP20 (for indoor use). \
+Operating temperature: 0°C to +60°C. ### 4. Assembly Requirements
+Method for joining the enclosure halves: at the designer's discretion \
+Securing the printed circuit board (PCB): at the designer's discretion
 
-### 4. Требования к сборке
-Тип соединения половинок корпуса: на усмотрение конструктора  \
-Фиксация печатной платы: на усмотрение конструктора
+### 5. Visual Design
 
-### 5. Визуальное оформление
-
-- Маркировка: Подписи разъемов способом гравировка + краска.
+- Labeling: Connector labels applied via engraving followed by paint infill.
 
 
 
-### Печатная плата
+### Printed Circuit Board (PCB)
 ![Encoder-emulator-Arduino-UNO.jpg](Encoder-emulator-Arduino-UNO.jpg)
 
-### Макет
+### Mock-up
 ![Encoder-emulator-Arduino-UNO-model.jpg](Encoder-emulator-Arduino-UNO-model.jpg)
