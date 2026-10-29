@@ -7,6 +7,8 @@
 Purpose: To protect the encoder emulator electronics and \
 provide access to control elements and signal outputs.
 
+(Special thanks to AK)
+
 ### 1. Design Requirements
 
 Module dimensions: 74.93(75) x 53.34(54) x 20 mm. \
